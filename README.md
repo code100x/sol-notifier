@@ -4,19 +4,18 @@ A simple frontend that let's users connect their wallets to notification sources
 ## Stack
 Create a monorepo which has 
 
-1. Core web2 service
-Next.js
-Typescript
-Authentication via gmail/wallet is required. See next-auth with mm over here - https://github.com/DakaiGroup/nextjs-nextauth-metamask
+ - Core web2 service
+   - Next.js
+   - Typescript
+   - Authentication via gmail/wallet is required. See next-auth with mm over here - https://github.com/DakaiGroup/nextjs-nextauth-metamask
 
-2. Web3 indexer
-Needs to index all the wallets and find the 
-1. Tokens the user has and it's amount
-2. NFTs the user has and it's amount (maybe only blue chips from a list)
+ - Web3 indexer
+   - Needs to index all the wallets and find the  Tokens the user has and it's amount
+   - NFTs the user has and it's amount (maybe only blue chips from a list)
 
-3. Price indexer
-1. Needs to poll coingecko and get back prices for tokens
-2. Needs to poll ME/Tensor for floor price of NFT (floor - royalty is the final proce)
+ - Price indexer
+    - Needs to poll coingecko and get back prices for tokens
+    - Needs to poll ME/Tensor for floor price of NFT (floor - royalty is the final proce)
 
 ## What needs to be done
 A simple UI where a user can 
